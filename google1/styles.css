@@ -23,6 +23,14 @@ top: 20%;}
 .barra {grid-row: 3/4;
 top: ;}
 
+
+
+
+
+
+
+
+
 .flexsearch--wrapper {
 	height: auto;
 	width: auto;
@@ -112,4 +120,3 @@ input:-moz-placeholder {
   color: #888
 }
 
-.barra {width: ;}
