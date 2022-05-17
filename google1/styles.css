@@ -1,122 +1,63 @@
 * {margin:0 ;
 padding: 0;}
-body {height: 700px;
-width: 1500px;
+body {height: 400px;
+width: auto;
 display: grid;
-grid-template-rows: 20% 40% auto auto;}
+gap: 7%;
+grid-template-rows: 20% 100px 100px 50px auto;
+grid-template-columns:auto auto auto ;}
 
-.entrada {grid-row:1/2 ;
+a {font-family: Roboto;}
+h2 {font-family: Roboto;}
+button {font-family: Roboto;}
+
+a:hover {background-color: whitesmoke;}
+.entrada {grid-row: 1/2;
+grid-column: 1/4;
+height: ;
 font-size: 50px;
 }
-.gmail  {position: relative;
-left: 98%; text-decoration: none;}
-.imagen {position: relative;
-left: 100%; text-decoration: none;}
-
+.gmail {position: absolute;
+left: 70%; text-decoration: none;}
+.imagen {position: absolute;
+left: 76%; text-decoration: none;}
+.apps {position: absolute;
+left: 85%; text-decoration: none;}
+.lag {width: 500px;
+height: 1px; }
 
 .logo {grid-row: 2/3;
-height: 200px;
-position: relative;
-left: 15%;
-top: 20%;}
+grid-column: 1/4;
+width: auto ;
+height: px; border: black solid 1px;}
 
-.barra {grid-row: 3/4;
-top: ;}
+.logo1 {width: 350px;}
 
-
-
-
-
-
-
-
-
-.flexsearch--wrapper {
-	height: auto;
-	width: auto;
-	max-width: 100%;
-	overflow: hidden;
-	background: transparent;
-	margin: 0;
-	position: static;
+.barra1 {position: absolute;
+top: 22%;
+left: 40%;
+height: 30px;
+width: 50px;}
+.barra2 {position: absolute;
+    top: 22%;
+    left: 42%;
+height: 30px;}
+.barra {grid-row: 3/4;  
+grid-column: 1/4; 
+border: 1px black solid;
+height: 100px;}
+.botones {grid-row:4/5 ;
+grid-column: 1/4;
+border:1px solid black ;
 }
-	
-.flexsearch--form {
-	overflow: hidden;
-	position: relative;
-}
-	
-.flexsearch--input-wrapper {
-	padding: 0 66px 0 0; /* Right padding for submit button width */
-	overflow: hidden;
-}
+button:hover {background-color: whitesmoke;}
+.chile {grid-column:1/4 ;
+grid-row: 5/6;
+border: 1px solid black;}
 
-.flexsearch--input {
-  width: 100%;
-}
 
-/***********************
- * Configurable Styles *
- ***********************/
-.flexsearch {
-  padding: 0 25px 0 200px; /* Padding for other horizontal elements */
-}
 
-.flexsearch--input {
-  -webkit-box-sizing: content-box;
-	-moz-box-sizing: content-box;
-	box-sizing: content-box;
- 	height: 60px;
-  padding: 0 46px 0 10px;
-	border-color: #888;
-  border-radius: 35px; /* (height/2) + border-width */
-  border-style: solid;
-	border-width: 5px;
-  margin-top: 15px;
-  color: #333;
-  font-family: 'Helvetica', sans-serif;
-	font-size: 26px;
-	-webkit-appearance: none;
-	-moz-appearance: none;
-}
-	
-.flexsearch--submit {
-  position: absolute;
-	right: 0;
-	top: 0;
-	display: block;
-	width: 60px;
-	height: 60px;
-  padding: 0;
-  border: none;
-	margin-top: 20px; /* margin-top + border-width */
-  margin-right: 5px; /* border-width */
-	background: transparent;
-  color: #888;
-  font-family: 'Helvetica', sans-serif;
-  font-size: 40px;
-  line-height: 60px;
-}
 
-.flexsearch--input:focus {
-  outline: none;
-  border-color: #333;
-}
 
-.flexsearch--input:focus.flexsearch--submit {
- 	color: #333; 
-}
 
-.flexsearch--submit:hover {
-  color: #333;
-  cursor: pointer;
-}
-
-::-webkit-input-placeholder {
-	color: #888;  
-}
-
-input:-moz-placeholder {
-  color: #888
-}
 
