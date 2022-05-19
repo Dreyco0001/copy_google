@@ -15,26 +15,32 @@
 
 </head>
 <body>
-         <div class="entrada"> <a class="gmail" href="https://mail.google.com/mail/u/0/#inbox">Gmail</a><a class="imagen" href="#">Imágenes</a>
-        <a href="#" class="apps">Apps</a> 
+    <header>
+         <div class="entrada"> <a target="_blank" class="gmail" href="https://mail.google.com/mail/u/0/#inbox">Gmail</a><a class="imagen" href="#">Imágenes</a>
+
+        <a  target="_blank" href="#" class="apps">Apps</a> 
             
-           <a href="#"><img class="poke" src="./imagenes/download-icon-go+meowth+play+pokemon+icon-1320186976860848555_256.png" alt="pokemon"></a>
+           <a href="#" target="_blank"><img class="poke" src="./imagenes/download-icon-go+meowth+play+pokemon+icon-1320186976860848555_256.png" alt="pokemon"></a>
+
+           <a target="_blank" class="ave" href="https://www.youtube.com/watch?v=hPr-Yc92qaY"><img class="ave"  src="./imagenes/skulls.png" alt="skulls"></a>
            </div>
+  
+        </header>
          
-        
+        <main class="main">
         <div class="logo2">   
             <center>
             <img class="logo1" src="./imagenes/google-logo-png-transparent-background-large-new.png" alt="google"> 
         </center> 
         </div>
 
-                 <div class="barra">  
+                 <div id="input-search">  
                     <center>
-                    <form class="barra" action="../../form-result.php" method="post" target="_blank">
+                    <form action="../../form-result.php" method="post" target="_blank">
 
-                        <p>
+                        <p >
                       
-                           <input  class="barra2 lag" type="search" name="" size="5" maxlength="4">
+                           <input  class="barra2 lag" type="search" name="" size="5" maxlength="80">
                       
                           <input class="barra1 lag" type="submit" value="Buscar">
                       
@@ -49,29 +55,37 @@
             
             <div class="botones"> 
             <center>
-            <button class="botones1 buton">
-           <h2>Buscar con google</h2> 
+            <button class="botones1 buton" id="search">
+           <!-- <h2>Buscar con google</h2> -->
+           <a href="#" class="buton">Buscar con google</a> 
         </button>
-        <button class="botones2  buton">
-           <h2> Me siento con suerte</h2>
+        <button class="botones2  buton" id="lucky">
+           <a href="#" class="buton">Me siento con suerte</a>
          </button> 
         </center>
              </div>
+            </main>
+
+              <section class="pais">
+         <div >
+
+          <h2 class="chile1">chile</h2>
 
 
-         <div class="pais">   
-          <h2 class="chile">chile</h2>
                  </div>
-    
-                      <div class="menuf">
-                          <a class="Tito" href="#"> <span class="texto tex1"> Sobre google </span></a>
-                          <a class="Tito" href="#"> <span class="texto tex2"> Publicidad </span></a>
-                          <a class="Tito" href="#"> <span class="texto tex3">Negocios </span></a>
-                          <a class="Tito" href="#"> <span class="texto tex4">Cómo funciona la Búsqueda  </span></a>
-                          <a class="Tito" href="#"> <span class="texto tex5">privacidad </span></a>
-                          <a class="Tito" href="#"><span class="texto tex6"> condiciones </span></a>
-                          <a class="Tito" href="#"> <span class="texto tex7">preferencias </span></a>
+                </section>
+                      <section class="menuf">
+                      <div>
 
+                        
+                          <a target="_blank" class="Tito" href="https://about.google/?utm_source=google-CL&utm_medium=referral&utm_campaign=hp-footer&fg=1"> <span class="footer-link tex1"> Sobre google </span></a>
+                          <a target="_blank" class="Tito" href="https://ads.google.com/intl/es-419_cl/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1"> <span class="footer-link tex2"> Publicidad </span></a>
+                          <a target="_blank" class="Tito" href="https://smallbusiness.withgoogle.com/intl/es-419_cl/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=ww-ww-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u&c=CL#!/"> <span class="footer-link tex3">Negocios </span></a>
+                          <a target="_blank" class="Tito" href="https://www.google.com/search/howsearchworks/?fg=1"> <span class="footer-link tex4">Cómo funciona la Búsqueda  </span></a>
+                          <a class="Tito" href="https://policies.google.com/privacy?hl=es-419&fg=1" target="_blank"> <span class="footer-link tex5">privacidad </span></a>
+                          <a class="Tito" href="https://policies.google.com/terms?hl=es-419&fg=1" target="_blank"><span class="footer-link tex6"> condiciones </span></a>
+                          <a class="Tito" href="#"> <span class="footer-link tex7">preferencias </span></a>
+                        </section>
 
                       </div>
 
